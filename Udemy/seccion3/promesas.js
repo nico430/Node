@@ -60,7 +60,7 @@ let getSalario = (empleado) => {
     });
 }
 
-getEmpleado(1).then( //argumento 1 resolve
+/*getEmpleado(1).then( //argumento 1 resolve
     empleado => {
         console.log('Empleado de base de datos: ', empleado);
 
@@ -77,6 +77,18 @@ getEmpleado(1).then( //argumento 1 resolve
 
     (err) => console.log(err)
 
+)*/
 
+//promesas en cadena
 
-)
+getEmpleado(1).then(empleado => {
+        return getSalario(empleado);
+    })
+    .then(resp => {
+        console.log(`El salario de ${ resp.nombre } es de ${ resp.salario }`);
+    })
+    // En caso de falla usamos 
+
+.catch(err => {
+    console.log(err);
+});
