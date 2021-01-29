@@ -1,0 +1,22 @@
+{
+  "name": "03-bases-node",
+  "version": "1.0.0",
+  "description": "applicacion de lineas de  comandos",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nico430/Node.git"
+  },
+  "author": "Braian Nicolás Chaban Pavón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nico430/Node/issues"
+  },
+  "homepage": "https://github.com/nico430/Node#readme",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
