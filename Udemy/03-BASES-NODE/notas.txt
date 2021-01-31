@@ -1,0 +1,11 @@
+/*
+app.js
+extraigo el argumento mandado desde consola y agrego un valor por defecto por si las dudas
+const [, , arg3] = process.argv;
+const [, base =5 ] = arg3.split('=');
+console.log(base)
+con esto se puede ingresar una base para ejecutar el crear archivo
+pero trae inconvenientes y no es recomendable
+*/
+//const base = 5;
+//const limite = 10;

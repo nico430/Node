@@ -1,8 +1,27 @@
 {
   "name": "03-bases-node",
-  "version": "1.0.0",
-  "description": "applicacion de lineas de  comandos",
+  "version": "0.0.1",
+  "description": "una simple aplicacion que muestra tablas de mutliplicar",
   "main": "app.js",
+  "dependencies": {
+    "ansi-regex": "^5.0.0",
+    "ansi-styles": "^4.3.0",
+    "cliui": "^7.0.4",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "colors": "^1.4.0",
+    "emoji-regex": "^8.0.0",
+    "escalade": "^3.1.1",
+    "get-caller-file": "^2.0.5",
+    "is-fullwidth-code-point": "^3.0.0",
+    "require-directory": "^2.1.1",
+    "string-width": "^4.2.0",
+    "strip-ansi": "^6.0.0",
+    "wrap-ansi": "^7.0.0",
+    "y18n": "^5.0.5",
+    "yargs": "^16.2.0",
+    "yargs-parser": "^20.2.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +29,10 @@
     "type": "git",
     "url": "git+https://github.com/nico430/Node.git"
   },
-  "author": "Braian Nicolás Chaban Pavón",
+  "author": "nicolas chaban",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/nico430/Node/issues"
   },
-  "homepage": "https://github.com/nico430/Node#readme",
-  "dependencies": {
-    "yargs": "^16.2.0"
-  }
+  "homepage": "https://github.com/nico430/Node#readme"
 }
